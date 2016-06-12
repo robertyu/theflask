@@ -10,7 +10,7 @@ from .models import Task
 @app.route('/index')
 def index():
 	activities  = Task.query.all()
-	count 		= Task.query.count()
+	count 	    = Task.query.count()
 	return render_template('index.html', activities=activities, count=count)
 
 @app.route('/activity')
@@ -58,7 +58,7 @@ def edittask():
 
 @app.route('/delete')
 def delete():
-	id = request.args.get('id', 0, type=str)
+	id   = request.args.get('id', 0, type=str)
 	task = Task.query.get(id)
 	db.session.delete(task)
 	db.session.commit()

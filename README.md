@@ -4,8 +4,7 @@
 # Also, error pages for 404 and 500 are customized.
 
 # Proponents :
-  De Leon, Jesse - Frontend and Database 
-  De Vera, Ivan  - Frontend and Database
-  Juat, Rolin    - Backend
+  De Leon, Jesse - Frontend
+  Juat, Rolin    - Backend / Database
   
   

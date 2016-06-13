@@ -1,7 +1,6 @@
 import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from flask_openid import OpenID
 from config import basedir
 
 app = Flask(__name__)

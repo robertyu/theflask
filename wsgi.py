@@ -1,3 +1,2 @@
 #!flask/bin/python
-from app import app
-app.run()
+from app import app as application

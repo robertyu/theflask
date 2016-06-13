@@ -1,8 +1,7 @@
 from flask import render_template, session, url_for, request, g, jsonify
 from app import app
 from datetime import datetime
-from app import app, db, lm, oid
-#from .forms import LoginForm, EditForm
+from app import app, db
 from .models import Task
 
 

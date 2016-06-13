@@ -1,5 +1,5 @@
 from hashlib import md5
-from app import db, models
+from app import db
 
 
 class Task(db.Model):
